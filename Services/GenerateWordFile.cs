@@ -13,7 +13,6 @@ namespace ECMWordGenerator.Services
         {
             try
             {
-                // Authentication logic here using requestData.AuthToken
                 Logger.Log($"User {requestData.UserName} initiated document generation for {requestData.Document}");
 
                 GenerateWordFileInternal(requestData.Document, requestData.Data);
@@ -33,14 +32,12 @@ namespace ECMWordGenerator.Services
             var wordApp = new Word.Application();
             var doc = wordApp.Documents.Open(documentPath);
 
-            foreach (var item in data)
+            foreach (Word.ContentControl contentControl in doc.ContentControls)
             {
-                Word.Find findObject = wordApp.Selection.Find;
-                findObject.ClearFormatting();
-                findObject.Text = item.Key;
-                findObject.Replacement.ClearFormatting();
-                findObject.Replacement.Text = item.Value;
-                findObject.Execute(Replace: Word.WdReplace.wdReplaceAll);
+                if (data.ContainsKey(contentControl.Title))
+                {
+                    contentControl.Range.Text = data[contentControl.Title];
+                }
             }
 
             doc.Save();
