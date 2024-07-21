@@ -1,0 +1,8 @@
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\obj\Debug\ECMWordGenerator.csproj.AssemblyReference.cache
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\obj\Debug\ECMWordGenerator.csproj.CoreCompileInputs.cache
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\obj\Debug\ECMWordGenerator.csproj.ResolveComReference.cache
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\bin\Debug\ECMWordGenerator.dll.config
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\bin\Debug\ECMWordGenerator.dll
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\bin\Debug\ECMWordGenerator.pdb
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\obj\Debug\ECMWordGenerator.dll
+C:\Users\vladd\OneDrive\LTS\Development\.NET\ECMWordGenerator\obj\Debug\ECMWordGenerator.pdb
