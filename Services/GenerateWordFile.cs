@@ -3,10 +3,12 @@ using ECMWordGenerator.Logging;
 using ECMWordGenerator.Models;
 using System.Collections.Generic;
 using System.IO;
+using System.ServiceModel;
 using Word = Microsoft.Office.Interop.Word;
 
 namespace ECMWordGenerator.Services
 {
+    [ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]
     public class WordGeneratorService : IWordGeneratorService
     {
         /// <summary>
@@ -16,6 +18,21 @@ namespace ECMWordGenerator.Services
         /// <returns>A string message indicating the result of the operation.</returns>
         public string GenerateWordFile(RequestData requestData)
         {
+            // Check if requestData is null
+            if (requestData == null)
+            {
+                Logger.Log("Error: requestData is null.", true);
+                return "Error: requestData is null.";
+            }
+
+            // Check if any required fields in requestData are null or empty
+            if (string.IsNullOrEmpty(requestData.UserName) || string.IsNullOrEmpty(requestData.AuthToken) ||
+                string.IsNullOrEmpty(requestData.Document) || requestData.Data == null)
+            {
+                Logger.Log("Error: One or more required fields are null or empty.", true);
+                return "Error: One or more required fields are null or empty.";
+            }
+
             try
             {
                 // Log the initiation of the document generation
