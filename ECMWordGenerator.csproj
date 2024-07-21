@@ -49,10 +49,12 @@
   <ItemGroup>
     <Compile Include="Contracts\IWordGeneratorService.cs" />
     <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Models\GenerateWordFileResponse.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\RequestData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\GenerateWordFile.cs" />
+    <Compile Include="Services\WordGeneratorService.cs" />
+    <Compile Include="Services\WordTemplateProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

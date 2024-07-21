@@ -7,6 +7,6 @@ namespace ECMWordGenerator.Contracts
     public interface IWordGeneratorService
     {
         [OperationContract]
-        string GenerateWordFile(RequestData requestData);
+        GenerateWordFileResponse GenerateWordFile(RequestData requestData);
     }
 }

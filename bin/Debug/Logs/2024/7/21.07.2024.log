@@ -37,3 +37,33 @@
 21.07.2024 18:25:14: Ok: User VDneprovsky initiated document generation for C:\Users\Vlad\OneDrive\LTS\document.docx
 21.07.2024 18:25:14: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\Vlad\OneDrive\LTS\document.docx, Data: ECMWordGenerator.Models.KeyValuePairModel, ECMWordGenerator.Models.KeyValuePairModel
 21.07.2024 18:25:16: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\Vlad\OneDrive\LTS\document.docx)
+21.07.2024 18:39:59: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 18:39:59: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 18:40:08: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:05:28: Ok: GenerateWordFile method called.
+21.07.2024 19:05:28: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:05:28: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:05:32: Error: Error generating document: The process cannot access the file 'C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\result_Internal Document_LNHB_Processed.docx' because it is being used by another process.
+21.07.2024 19:05:42: Ok: GenerateWordFile method called.
+21.07.2024 19:05:42: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:05:42: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:05:45: Error: Error generating document: Command failed
+21.07.2024 19:07:22: Ok: GenerateWordFile method called.
+21.07.2024 19:07:22: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:07:22: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:07:25: Error: Error generating document: Command failed
+21.07.2024 19:11:00: Ok: GenerateWordFile method called.
+21.07.2024 19:11:00: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:11:00: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:11:34: Error: Error generating document: Command failed
+21.07.2024 19:11:52: Ok: GenerateWordFile method called.
+21.07.2024 19:11:52: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:11:52: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:20:53: Ok: GenerateWordFile method called.
+21.07.2024 19:20:53: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:20:53: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:21:06: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:29:07: Ok: GenerateWordFile method called.
+21.07.2024 19:29:07: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:29:07: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: ECMWordGenerator.Models.Item, ECMWordGenerator.Models.Item
+21.07.2024 19:29:14: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
