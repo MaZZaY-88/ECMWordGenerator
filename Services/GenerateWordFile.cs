@@ -15,10 +15,10 @@ namespace ECMWordGenerator.Services
             {
                 Logger.Log($"User {requestData.UserName} initiated document generation for {requestData.Document}");
 
-                GenerateWordFileInternal(requestData.Document, requestData.Data);
+                string resultDocumentPath = GenerateWordFileInternal(requestData.Document, requestData.Data);
 
                 Logger.Log($"Document generation completed successfully for {requestData.Document}");
-                return "Document generated successfully.";
+                return $"Document generated successfully. Result file: {resultDocumentPath}";
             }
             catch (System.Exception ex)
             {
@@ -27,7 +27,7 @@ namespace ECMWordGenerator.Services
             }
         }
 
-        private void GenerateWordFileInternal(string documentPath, Dictionary<string, string> data)
+        private string GenerateWordFileInternal(string documentPath, Dictionary<string, string> data)
         {
             var wordApp = new Word.Application();
             var doc = wordApp.Documents.Open(documentPath);
@@ -40,9 +40,17 @@ namespace ECMWordGenerator.Services
                 }
             }
 
-            doc.Save();
+            string resultDocumentPath = Path.Combine(Path.GetDirectoryName(documentPath), "result_" + Path.GetFileName(documentPath));
+            if (File.Exists(resultDocumentPath))
+            {
+                File.Delete(resultDocumentPath);
+            }
+
+            doc.SaveAs2(resultDocumentPath);
             doc.Close();
             wordApp.Quit();
+
+            return resultDocumentPath;
         }
     }
 }

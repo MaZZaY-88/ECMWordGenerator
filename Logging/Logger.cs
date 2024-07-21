@@ -9,7 +9,7 @@ namespace ECMWordGenerator.Logging
         {
             string logDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs", DateTime.Now.Year.ToString(), DateTime.Now.Month.ToString());
             Directory.CreateDirectory(logDirectory);
-            return Path.Combine(logDirectory, $"{DateTime.Now.Day}.log");
+            return Path.Combine(logDirectory, $"{DateTime.Now:dd.MM.yyyy}.log");
         }
 
         public static void Log(string message, bool isError = false)
