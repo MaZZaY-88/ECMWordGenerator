@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:services\\generatewordfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\contracts\\iwordgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:contracts\\iwordgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\models\\requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:models\\requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\contracts\\iwordgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:contracts\\iwordgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|c:\\users\\vladd\\source\\repos\\ecmwordgenerator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{59FF903F-CA23-4904-A438-70FC0BD88937}|ECMWordGenerator.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\Source\\Repos\\ECMWordGenerator\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\vladd\\Source\\Repos\\ECMWordGenerator\\Models\\Item.cs*",
+              "RelativeToolTip": "Models\\Item.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T15:23:20.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-21T14:26:38.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IWordGeneratorService.cs",
               "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Contracts\\IWordGeneratorService.cs",
               "RelativeDocumentMoniker": "Contracts\\IWordGeneratorService.cs",
               "ToolTip": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Contracts\\IWordGeneratorService.cs",
               "RelativeToolTip": "Contracts\\IWordGeneratorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T12:36:12.133Z",
               "EditorCaption": ""
@@ -53,7 +87,7 @@
               "RelativeDocumentMoniker": "Logging\\Logger.cs",
               "ToolTip": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Logging\\Logger.cs",
               "RelativeToolTip": "Logging\\Logger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:39:55.166Z",
               "EditorCaption": ""
@@ -66,20 +100,20 @@
               "RelativeDocumentMoniker": "Services\\GenerateWordFile.cs",
               "ToolTip": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Services\\GenerateWordFile.cs",
               "RelativeToolTip": "Services\\GenerateWordFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwEkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:30:46.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RequestData.cs",
               "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Models\\RequestData.cs",
               "RelativeDocumentMoniker": "Models\\RequestData.cs",
               "ToolTip": "C:\\Users\\vladd\\source\\repos\\ECMWordGenerator\\Models\\RequestData.cs",
               "RelativeToolTip": "Models\\RequestData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwCEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:26:13.168Z",
               "EditorCaption": ""

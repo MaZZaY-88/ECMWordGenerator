@@ -1,1 +1,39 @@
 7/21/2024 5:14:50 PM: Error: Error: requestData is null.
+21.07.2024 17:24:15: Error: Error: requestData is null.
+21.07.2024 17:27:27: Error: Error: requestData is null.
+21.07.2024 17:32:04: Ok: GenerateWordFile method called.
+21.07.2024 17:32:21: Error: Error: requestData is null.
+21.07.2024 17:32:33: Ok: GenerateWordFile method called.
+21.07.2024 17:33:16: Error: Error: One or more required fields are null or empty.
+21.07.2024 17:37:23: Ok: GenerateWordFile method called.
+21.07.2024 17:37:31: Error: Error: requestData is null.
+21.07.2024 17:39:29: Ok: GenerateWordFile method called.
+21.07.2024 17:39:36: Error: Error: One or more required fields are null or empty.
+21.07.2024 17:40:33: Ok: GenerateWordFile method called.
+21.07.2024 17:41:04: Error: Error: One or more required fields are null or empty.
+21.07.2024 17:41:25: Ok: GenerateWordFile method called.
+21.07.2024 17:42:59: Error: Error: One or more required fields are null or empty.
+21.07.2024 17:43:21: Ok: GenerateWordFile method called.
+21.07.2024 17:43:27: Ok: User Test initiated document generation for Test
+21.07.2024 17:43:27: Ok: Incoming Params: UserName: Test, AuthToken: Test, Document: Test, Data: 
+21.07.2024 17:43:30: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\WINDOWS\system32\Test)
+21.07.2024 17:46:52: Ok: GenerateWordFile method called.
+21.07.2024 18:09:46: Error: Error: One or more required fields are null or empty.
+21.07.2024 18:10:36: Ok: User Test initiated document generation for Test
+21.07.2024 18:10:36: Ok: Incoming Params: UserName: Test, AuthToken: Test, Document: Test, Data: 
+21.07.2024 18:10:39: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\WINDOWS\system32\Test)
+21.07.2024 18:14:05: Ok: User Test initiated document generation for Test
+21.07.2024 18:14:05: Ok: Incoming Params: UserName: Test, AuthToken: Test, Document: Test, Data: 
+21.07.2024 18:14:07: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\WINDOWS\system32\Test)
+21.07.2024 18:14:40: Ok: User VDneprovsky initiated document generation for C:\Users\Vlad\OneDrive\LTS\document.docx
+21.07.2024 18:14:40: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\Vlad\OneDrive\LTS\document.docx, Data: 
+21.07.2024 18:14:42: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\Vlad\OneDrive\LTS\document.docx)
+21.07.2024 18:19:38: Ok: User VDneprovsky initiated document generation for C:\Users\Vlad\OneDrive\LTS\document.docx
+21.07.2024 18:19:38: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\Vlad\OneDrive\LTS\document.docx, Data: 
+21.07.2024 18:19:40: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\Vlad\OneDrive\LTS\document.docx)
+21.07.2024 18:20:32: Ok: User VDneprovsky initiated document generation for C:\Users\Vlad\OneDrive\LTS\document.docx
+21.07.2024 18:20:32: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\Vlad\OneDrive\LTS\document.docx, Data: 
+21.07.2024 18:20:39: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\Vlad\OneDrive\LTS\document.docx)
+21.07.2024 18:25:14: Ok: User VDneprovsky initiated document generation for C:\Users\Vlad\OneDrive\LTS\document.docx
+21.07.2024 18:25:14: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\Vlad\OneDrive\LTS\document.docx, Data: ECMWordGenerator.Models.KeyValuePairModel, ECMWordGenerator.Models.KeyValuePairModel
+21.07.2024 18:25:16: Error: Error generating document: Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\Vlad\OneDrive\LTS\document.docx)

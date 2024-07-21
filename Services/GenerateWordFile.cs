@@ -3,8 +3,8 @@ using ECMWordGenerator.Logging;
 using ECMWordGenerator.Models;
 using System.Collections.Generic;
 using System.IO;
-using System.ServiceModel;
 using Word = Microsoft.Office.Interop.Word;
+using System.ServiceModel;
 
 namespace ECMWordGenerator.Services
 {
@@ -58,20 +58,23 @@ namespace ECMWordGenerator.Services
         /// Replaces placeholders in the Word document with specified values and saves the result.
         /// </summary>
         /// <param name="documentPath">The path to the original Word document.</param>
-        /// <param name="data">A dictionary containing the placeholders and their replacement values.</param>
+        /// <param name="data">A list containing the placeholders and their replacement values.</param>
         /// <returns>The path to the generated Word document.</returns>
-        private string GenerateWordFileInternal(string documentPath, Dictionary<string, string> data)
+        private string GenerateWordFileInternal(string documentPath, List<Item> data)
         {
             // Open the Word application and document
             var wordApp = new Word.Application();
             var doc = wordApp.Documents.Open(documentPath);
 
             // Replace each placeholder with the corresponding value
-            foreach (Word.ContentControl contentControl in doc.ContentControls)
+            foreach (var item in data)
             {
-                if (data.ContainsKey(contentControl.Title))
+                foreach (Word.ContentControl contentControl in doc.ContentControls)
                 {
-                    contentControl.Range.Text = data[contentControl.Title];
+                    if (contentControl.Title == item.Placeholder)
+                    {
+                        contentControl.Range.Text = item.Value;
+                    }
                 }
             }
 

@@ -24,7 +24,7 @@ namespace ECMWordGenerator.Logging
         public static void Log(string message, bool isError = false)
         {
             string logFilePath = GetLogFilePath();
-            string logMessage = $"{DateTime.Now}: {(isError ? "Error" : "Ok")}: {message}";
+            string logMessage = $"{DateTime.Now:dd.MM.yyyy HH:mm:ss}: {(isError ? "Error" : "Ok")}: {message}";
             File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
         }
     }
