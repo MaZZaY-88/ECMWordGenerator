@@ -1,0 +1,214 @@
+22.07.2024 08:39:15: Ok: GenerateWordFile method called.
+22.07.2024 08:39:15: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 08:39:15: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 08:39:19: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+22.07.2024 08:39:21: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 54, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 76
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+22.07.2024 08:40:16: Ok: GenerateWordFile method called.
+22.07.2024 08:40:16: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 08:40:16: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 08:40:19: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+22.07.2024 09:02:22: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 54, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 76
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+22.07.2024 09:11:46: Ok: GenerateWordFile method called.
+22.07.2024 09:11:46: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 09:11:46: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 09:11:51: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+22.07.2024 09:11:54: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:00:10: Ok: GenerateWordFile method called.
+22.07.2024 10:00:10: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:00:10: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 10:00:31: Ok: Inserting value for placeholder Adressee: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            
+22.07.2024 10:00:35: Error: Error generating document: Error processing the template: 'object' does not contain a definition for 'set_Style', StackTrace:    at CallSite.Target(Closure , CallSite , ComObject , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 58, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 77
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+22.07.2024 10:01:44: Ok: GenerateWordFile method called.
+22.07.2024 10:01:44: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:01:44: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 10:01:48: Ok: Inserting value for placeholder Adressee: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            
+22.07.2024 10:01:48: Error: Error generating document: Error processing the template: 'object' does not contain a definition for 'set_Style', StackTrace:    at CallSite.Target(Closure , CallSite , ComObject , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 58, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 77
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+22.07.2024 10:04:55: Ok: GenerateWordFile method called.
+22.07.2024 10:04:55: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:04:55: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            }, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 10:05:00: Ok: Inserting value for placeholder Adressee: Dneprovskiy Vladislav
+                Mikhaylova Darya
+                Vorobev Anton
+            
+22.07.2024 10:05:04: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:23:07: Ok: GenerateWordFile method called.
+22.07.2024 10:23:07: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:23:07: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Dneprovskiy Vladislav
+Mikhaylova Darya
+Vorobev Anton}, {Placeholder: Placeholder2, Value: Value2}
+22.07.2024 10:23:12: Ok: Inserting value for placeholder Adressee: Dneprovskiy Vladislav
+Mikhaylova Darya
+Vorobev Anton
+22.07.2024 10:23:16: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:38:15: Ok: GenerateWordFile method called.
+22.07.2024 10:38:15: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:38:15: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Dneprovskiy Vladislav}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реазлиазции системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }
+22.07.2024 10:38:19: Ok: Inserting value for placeholder Adressee: Dneprovskiy Vladislav
+22.07.2024 10:38:19: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 10:38:20: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 10:38:20: Ok: Inserting value for placeholder Title: О реазлиазции системы Документооборота
+22.07.2024 10:38:20: Ok: Inserting value for placeholder Greetings: 
+Уважаемые коллеги,
+            
+22.07.2024 10:38:20: Ok: Inserting value for placeholder Content: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            
+22.07.2024 10:38:26: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:47:20: Ok: GenerateWordFile method called.
+22.07.2024 10:47:20: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 10:47:20: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Иванову И.И.}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реализации системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }, {Placeholder: Signature, Value: Днепровский В.В.}, {Placeholder: Position, Value: Руководитель проекта}
+22.07.2024 10:47:25: Ok: Inserting value for placeholder Adressee: Иванову И.И.
+22.07.2024 10:47:25: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 10:47:25: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 10:47:25: Ok: Inserting value for placeholder Title: О реализации системы Документооборота
+22.07.2024 10:47:25: Ok: Inserting value for placeholder Greetings: 
+Уважаемые коллеги,
+            
+22.07.2024 10:47:26: Ok: Inserting value for placeholder Content: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            
+22.07.2024 10:47:26: Ok: Inserting value for placeholder Signature: Днепровский В.В.
+22.07.2024 10:47:26: Ok: Inserting value for placeholder Position: Руководитель проекта
+22.07.2024 10:47:31: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:36:05: Ok: GenerateWordFile method called.
+22.07.2024 11:36:05: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:36:05: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Иванову И.И.}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реализации системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }, {Placeholder: Signature, Value: Днепровский В.В.}, {Placeholder: Position, Value: Руководитель проекта}
+22.07.2024 11:36:08: Error: Error generating document: Error processing the template: Command failed, StackTrace:    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 31, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 78
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+22.07.2024 11:36:21: Ok: GenerateWordFile method called.
+22.07.2024 11:36:21: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:36:21: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Иванову И.И.}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реализации системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }, {Placeholder: Signature, Value: Днепровский В.В.}, {Placeholder: Position, Value: Руководитель проекта}
+22.07.2024 11:36:24: Ok: Inserting value for placeholder Adressee: Иванову И.И.
+22.07.2024 11:36:24: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 11:36:24: Ok: Inserting value for placeholder Title: О реализации системы Документооборота
+22.07.2024 11:36:24: Ok: Inserting value for placeholder Greetings: 
+Уважаемые коллеги,
+            
+22.07.2024 11:36:25: Ok: Inserting value for placeholder Content: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            
+22.07.2024 11:36:25: Ok: Inserting value for placeholder Signature: Днепровский В.В.
+22.07.2024 11:36:25: Ok: Inserting value for placeholder Position: Руководитель проекта
+22.07.2024 11:36:28: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:36:40: Ok: GenerateWordFile method called.
+22.07.2024 11:36:40: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:36:40: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Иванову И.И.}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реализации системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }, {Placeholder: Signature, Value: Днепровский В.В.}, {Placeholder: Position, Value: Руководитель проекта}
+22.07.2024 11:36:43: Ok: Inserting value for placeholder Adressee: Иванову И.И.
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Title: О реализации системы Документооборота
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Greetings: 
+Уважаемые коллеги,
+            
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Content: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Signature: Днепровский В.В.
+22.07.2024 11:36:44: Ok: Inserting value for placeholder Position: Руководитель проекта
+22.07.2024 11:36:48: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:37:37: Ok: GenerateWordFile method called.
+22.07.2024 11:37:37: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+22.07.2024 11:37:37: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Иванову И.И.}, {Placeholder: Reg.Number, Value: LTR-INT-2024-0001}, {Placeholder: Title, Value: О реализации системы Документооборота}, {Placeholder: Greetings, Value: 
+Уважаемые коллеги,
+            }, {Placeholder: Content, Value: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            }, {Placeholder: Signature, Value: Днепровский В.В.}, {Placeholder: Position, Value: Руководитель проекта}
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Adressee: Иванову И.И.
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Reg.Number: LTR-INT-2024-0001
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Title: О реализации системы Документооборота
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Greetings: 
+Уважаемые коллеги,
+            
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Content: 
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dictum dolor. Pellentesque leo nibh, interdum id sapien et, vulputate pharetra nisl. Vestibulum fermentum eros ut sem semper, sit amet maximus neque sodales. Morbi iaculis urna id nunc lobortis vehicula. Etiam nisl nibh, pharetra in tincidunt sed, porttitor vitae felis. Aliquam erat volutpat. Nunc nisi erat, feugiat quis risus a, feugiat tristique magna. Sed eleifend tortor eget tellus imperdiet, ut lacinia nulla laoreet.
+Phasellus sit amet lobortis arcu. Cras sodales velit consequat ullamcorper pharetra. Aliquam non dolor ornare, tempus mauris at, finibus ante. Quisque congue, mauris quis auctor commodo, nunc ligula tincidunt risus, id consequat dui odio sit amet ex. Fusce ut suscipit ipsum. Donec tristique sagittis ipsum, nec laoreet dui. Phasellus semper mi eget fringilla vulputate. Duis vulputate nisl dolor, quis malesuada tellus egestas eu. Etiam et ligula rhoncus, semper urna non, bibendum lorem. Vestibulum nec turpis massa. Nulla facilisi. Mauris commodo pharetra neque, ac sodales augue bibendum quis. 
+            
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Signature: Днепровский В.В.
+22.07.2024 11:37:41: Ok: Inserting value for placeholder Position: Руководитель проекта
+22.07.2024 11:37:44: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx

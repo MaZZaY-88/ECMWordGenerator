@@ -1,4 +1,5 @@
-﻿using ECMWordGenerator.Models;
+﻿using ECMWordGenerator.Logging;
+using ECMWordGenerator.Models;
 using System.Collections.Generic;
 using System.IO;
 using Word = Microsoft.Office.Interop.Word;
@@ -26,6 +27,7 @@ namespace ECMWordGenerator.Services
             {
                 // Open the Word application and document
                 wordApp = new Word.Application();
+                wordApp.Visible = false; // Ensure the application is not visible
                 doc = wordApp.Documents.Open(documentPath);
 
                 // Replace each placeholder with the corresponding value
@@ -35,7 +37,28 @@ namespace ECMWordGenerator.Services
                     {
                         if (contentControl.Title == item.Placeholder)
                         {
-                            contentControl.Range.Text = item.Value;
+                            // Clear the current content
+                            contentControl.Range.Text = string.Empty;
+
+                            // Log the value to be inserted
+                            Logger.Log($"Inserting value for placeholder {item.Placeholder}: {item.Value}");
+
+                            // Split the value by lines and insert each line
+                            var lines = item.Value.Split(new[] { '\r', '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
+                            Word.Range range = contentControl.Range;
+                            object style = range.get_Style();
+
+                            for (int i = 0; i < lines.Length; i++)
+                            {
+                                if (i > 0)
+                                {
+                                    range.InsertParagraphAfter();
+                                    range.Collapse(Word.WdCollapseDirection.wdCollapseEnd);
+                                }
+                                range.InsertAfter(lines[i]);
+                                range.set_Style(style);
+                                range.Collapse(Word.WdCollapseDirection.wdCollapseEnd);
+                            }
                         }
                     }
                 }
@@ -49,6 +72,10 @@ namespace ECMWordGenerator.Services
 
                 doc.SaveAs2(resultDocumentPath);
                 return resultDocumentPath;
+            }
+            catch (System.Exception ex)
+            {
+                throw new System.Exception($"Error processing the template: {ex.Message}, StackTrace: {ex.StackTrace}", ex);
             }
             finally
             {

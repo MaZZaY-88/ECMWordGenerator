@@ -1,0 +1,300 @@
+21.07.2024 19:39:03: Ok: GenerateWordFile method called.
+21.07.2024 19:39:03: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:39:03: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User}, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 19:39:12: Ok: Document generation completed successfully for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:46:54: Ok: GenerateWordFile method called.
+21.07.2024 19:46:54: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:46:54: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 19:46:59: Error: Error generating document: One of the values passed to this method or property is incorrect.
+21.07.2024 19:49:46: Ok: GenerateWordFile method called.
+21.07.2024 19:50:09: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 19:50:13: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 19:51:24: Error: Error generating document: One of the values passed to this method or property is incorrect.
+21.07.2024 20:28:01: Ok: GenerateWordFile method called.
+21.07.2024 20:28:16: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 20:28:16: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 20:28:20: Error: Error generating document: This command is not available.
+21.07.2024 20:30:42: Ok: GenerateWordFile method called.
+21.07.2024 20:30:42: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 20:30:42: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 20:30:45: Error: Error generating document: Error processing the template: This command is not available.
+21.07.2024 20:48:01: Ok: GenerateWordFile method called.
+21.07.2024 20:48:01: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 20:48:01: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 20:48:05: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 44, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 63
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 21:28:27: Ok: GenerateWordFile method called.
+21.07.2024 21:28:27: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 21:28:27: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 21:28:30: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.set_Text(String prop)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 40, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 57
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 21:32:04: Ok: GenerateWordFile method called.
+21.07.2024 21:32:04: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 21:32:04: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 21:32:07: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.set_Text(String prop)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 40, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 57
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 21:33:44: Ok: GenerateWordFile method called.
+21.07.2024 21:33:44: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 21:33:44: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 21:51:37: Ok: GenerateWordFile method called.
+21.07.2024 21:51:37: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 21:51:37: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 21:51:39: Error: Error generating document: Error processing the template: Command failed, StackTrace:    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 30, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 68
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 21:59:35: Ok: GenerateWordFile method called.
+21.07.2024 21:59:35: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 21:59:35: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 21:59:44: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 49, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 68
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:01:26: Ok: GenerateWordFile method called.
+21.07.2024 22:01:26: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:01:26: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:01:31: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 49, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 68
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:05:39: Ok: GenerateWordFile method called.
+21.07.2024 22:05:39: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:05:39: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:05:43: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertAfter(String Text)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 49, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 68
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:13:00: Ok: GenerateWordFile method called.
+21.07.2024 22:13:00: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:13:00: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:13:03: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:13:03: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertAfter(String Text)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 53, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 72
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:13:41: Ok: GenerateWordFile method called.
+21.07.2024 22:13:41: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:13:41: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:13:43: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:14:20: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertAfter(String Text)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 53, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 72
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:14:50: Ok: GenerateWordFile method called.
+21.07.2024 22:14:50: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:14:50: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:14:53: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:15:59: Ok: GenerateWordFile method called.
+21.07.2024 22:15:59: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:15:59: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:16:01: Error: Error generating document: Error processing the template: Command failed, StackTrace:    at Microsoft.Office.Interop.Word.Documents.Open(Object& FileName, Object& ConfirmConversions, Object& ReadOnly, Object& AddToRecentFiles, Object& PasswordDocument, Object& PasswordTemplate, Object& Revert, Object& WritePasswordDocument, Object& WritePasswordTemplate, Object& Format, Object& Encoding, Object& Visible, Object& OpenAndRepair, Object& DocumentDirection, Object& NoEncodingDialog, Object& XMLTransform)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 31, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 72
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:16:18: Ok: GenerateWordFile method called.
+21.07.2024 22:16:18: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:16:18: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:16:20: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:25:00: Ok: GenerateWordFile method called.
+21.07.2024 22:25:00: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:25:00: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:25:03: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:25:04: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 52, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 73
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:25:43: Ok: GenerateWordFile method called.
+21.07.2024 22:25:43: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:25:43: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:25:46: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:25:47: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 52, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 73
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:26:49: Ok: GenerateWordFile method called.
+21.07.2024 22:26:49: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:26:49: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:26:52: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:26:53: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphBefore()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 54, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 76
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:28:17: Ok: GenerateWordFile method called.
+21.07.2024 22:28:17: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:28:17: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:28:20: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:28:20: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertAfter(String Text)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 53, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 72
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:31:13: Ok: GenerateWordFile method called.
+21.07.2024 22:31:13: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:31:13: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:31:16: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:31:17: Error: Error generating document: Error processing the template: One of the values passed to this method or property is incorrect., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertAfter(String Text)
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 54, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 73
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64
+21.07.2024 22:32:57: Ok: GenerateWordFile method called.
+21.07.2024 22:32:57: Ok: User VDneprovsky initiated document generation for C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx
+21.07.2024 22:32:57: Ok: Incoming Params: UserName: VDneprovsky, AuthToken: TestToken, Document: C:\Users\vladd\OneDrive\LTS\Болгария и Румыния\Internal Document_LNHB_Processed.docx, Data: {Placeholder: Adressee, Value: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            }, {Placeholder: Placeholder2, Value: Value2}
+21.07.2024 22:33:00: Ok: Inserting value for placeholder Adressee: Test User
+                Test User
+                Test User
+                Test User
+                Test User
+            
+21.07.2024 22:33:00: Error: Error generating document: Error processing the template: This command is not available., StackTrace:    at Microsoft.Office.Interop.Word.Range.InsertParagraphAfter()
+   at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 54, StackTrace:    at ECMWordGenerator.Services.WordTemplateProcessor.ProcessTemplate(String documentPath, List`1 data) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordTemplateProcessor.cs:line 76
+   at ECMWordGenerator.Services.WordGeneratorService.GenerateWordFile(RequestData requestData) in C:\Users\vladd\Source\Repos\ECMWordGenerator\Services\WordGeneratorService.cs:line 64

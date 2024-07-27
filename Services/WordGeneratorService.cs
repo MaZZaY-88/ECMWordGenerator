@@ -58,7 +58,7 @@ namespace ECMWordGenerator.Services
             {
                 // Log the initiation of the document generation
                 Logger.Log($"User {requestData.UserName} initiated document generation for {requestData.Document}");
-                Logger.Log($"Incoming Params: UserName: {requestData.UserName}, AuthToken: {requestData.AuthToken}, Document: {requestData.Document}, Data: {string.Join(", ", requestData.Data)}");
+                Logger.Log($"Incoming Params: UserName: {requestData.UserName}, AuthToken: {requestData.AuthToken}, Document: {requestData.Document}, Data: {Logger.FormatData(requestData.Data)}");
 
                 // Generate the Word file with the provided data
                 string resultDocumentPath = _wordTemplateProcessor.ProcessTemplate(requestData.Document, requestData.Data);
@@ -75,12 +75,12 @@ namespace ECMWordGenerator.Services
             catch (System.Exception ex)
             {
                 // Log any errors that occur during the document generation process
-                Logger.Log($"Error generating document: {ex.Message}", true);
+                Logger.Log($"Error generating document: {ex.Message}, StackTrace: {ex.StackTrace}", true);
                 return new GenerateWordFileResponse
                 {
                     Status = "error",
                     Filename = null,
-                    Details = $"Error: {ex.Message}"
+                    Details = $"Error: {ex.Message}, StackTrace: {ex.StackTrace}"
                 };
             }
         }
